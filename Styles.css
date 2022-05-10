@@ -274,6 +274,8 @@ i:hover{
 
 #file{
     width: 30vw;
+    height: 6vh;
+
 }
 
 /* SECTION PROJETS */
@@ -551,7 +553,7 @@ footer p i{
         margin-right: 0;
     }
     .portfolio{
-       width: 350px;
+       width: 300px;
        font-size: 30px;
        margin: 0 auto;
        margin-bottom: 15px;
@@ -601,7 +603,7 @@ footer p i{
 
     .title-1 .box span {
         width: 100%;
-        font-size: 13px;
+        font-size: 12px;
         height: 110px;
         padding: 20px;
         
@@ -685,23 +687,36 @@ footer p i{
     }
 
     input{
-        width: 350px;
-    }
-
-    input:hover{
-        transform: scale(2s);
-        background-color:rgb(5, 102, 146) ;
-        color:rgb(0,0,77);
-        border-radius: 20px;
-    }
-
-    input:focus{
-        background-color: lightgrey;
+        width: 250px;
+        justify-content: space-evenly;
     }
 
     textarea{
-        width: 350px;
+        width: 250px;
+        justify-content: space-evenly;
     }
+    button{
+        padding: 5px 15px;
+        font-size: 12px;
+        
+    }
+    footer {
+        padding: 5px;
+    }
+    footer p i{
+        font-size: 12px;
+    }
+    .arrow i{
+        font-size: 20px;
+        right: 40px;
+    }
+    .arrow{
+        width: 35px;
+        height: 35px;
+        bottom: 33px;
+        right: 30px; 
+    }
+    
 }
     
 
